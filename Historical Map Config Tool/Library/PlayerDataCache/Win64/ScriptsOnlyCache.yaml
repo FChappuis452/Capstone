@@ -6,16 +6,17 @@ ScriptsOnlyBuild:
     - SliderController
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
     Assets/Scenes/MainScene.unity:
     - Class: 1
@@ -55,17 +56,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10572}
     - Class: 114
+      Script: {instanceID: 10656}
+    - Class: 114
       Script: {instanceID: 10686}
     - Class: 114
-      Script: {instanceID: 11014}
+      Script: {instanceID: 10778}
     - Class: 114
       Script: {instanceID: 11016}
     - Class: 114
-      Script: {instanceID: 11358}
+      Script: {instanceID: 11018}
     - Class: 114
-      Script: {instanceID: 11390}
+      Script: {instanceID: 11360}
     - Class: 114
-      Script: {instanceID: 11408}
+      Script: {instanceID: 11392}
+    - Class: 114
+      Script: {instanceID: 11410}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -516,4 +521,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainScene.unity
-  playerPath: C:/Users/p_kem/Desktop/OpenToursVR/OpenToursVR/Mapping/Mapping/HistMapConfig/UnityTool/MapConfig.exe
+  playerPath: C:/Users/p_kem/Desktop/OpenToursVR/OpenToursVR/Mapping/Mapping/HistMapConfig/UnityTool/HistMapConfigTool.exe
